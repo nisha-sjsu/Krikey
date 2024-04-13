@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Team Member List */
+  .team-member-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .team-member-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Team Member */
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .team-member-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .team-member-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .team-member-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
