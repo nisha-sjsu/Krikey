@@ -5,7 +5,7 @@ const TeamMemberList = () => {
   const [teamMembers, setTeamMembers] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/top-authors')
+    fetch('https://krikey-x565.onrender.com/top-authors')
       .then(response => response.json())
       .then(data => setTeamMembers(data))
       .catch(error => console.error('Error fetching team members:', error));
